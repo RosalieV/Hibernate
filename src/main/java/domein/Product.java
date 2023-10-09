@@ -80,7 +80,7 @@ public class Product {
 
     @Override
     public String toString() {
-        return "domein.Product{" +
+        return "Product{" +
                 "productNummer=" + productNummer +
                 ", naam='" + naam + '\'' +
                 ", beschrijving='" + beschrijving + '\'' +

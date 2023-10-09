@@ -68,7 +68,7 @@ public class Adres {
     public int getReizerID(){return reiziger.getId();}
 
     public String toString() {
-        String s = "Domein.domein.Reiziger {" + this.reiziger + ", Domein.domein.Adres {#" + this.id + " " + this.postcode +"-" + this.huisnummer +"}}";
+        String s = "Reiziger {" + this.reiziger + "Adres {#" + this.id + " " + this.postcode +"-" + this.huisnummer +"}}";
         return s;
     }
 }

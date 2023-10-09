@@ -55,7 +55,7 @@ public class OVChipkaart {
 
     @Override
     public String toString() {
-        return "domein.OVChipkaart{" +
+        return "OVChipkaart{" +
                 "kaartNummer=" + kaartNummer +
                 ", geldigTot=" + geldigTot +
                 ", klasse=" + klasse +

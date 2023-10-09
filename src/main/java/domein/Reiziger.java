@@ -34,7 +34,7 @@ public class Reiziger {
     @JoinColumn(name = "adres_id")
     private Adres adres;
 
-    @OneToMany(mappedBy = "reiziger")
+    @OneToMany(mappedBy = "reiziger", fetch = FetchType.EAGER)
     private List<OVChipkaart> ovchipkaarten;
 
 
@@ -101,7 +101,7 @@ public class Reiziger {
 
     @Override
     public String toString() {
-        return "domein.Reiziger{" +
+        return "Reiziger{" +
                 "id=" + id +
                 ", voorletters='" + voorletters + '\'' +
                 ", tussenvoegsel='" + tussenvoegsel + '\'' +
